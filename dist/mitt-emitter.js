@@ -83,16 +83,13 @@ class MittEmitter {
   /**
    * @description Remove an event handler for the given topic.
    * @param {string|symbol} topic Type of event to unregister `handler` from
-   * @param {function} handler Handler function to remove
    * @public
    */
-  off(topic, handler) {
+  off(topic) {
     const self = this;
     try {
-      const handlers = self._all.get(topic);
-      if (handlers) {
-        handlers.splice(handlers.indexOf(handler) >>> 0, 1);
-      }
+      const handlers = self._all.has(topic);
+      if (handlers) self._all.delete(topic);
     } catch (ex) {
       throw ex;
     }
