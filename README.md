@@ -1,7 +1,7 @@
 # mitt-emitter
 This is a redesigned package to add the concept of topics like RabbitMQ. You can now use the special characters "*" and "#" to get a topic.
 
-The original package you can find at: https://github.com/developit/mitt
+The original package you can find at: https://github.com/developit/mitt - © [Jason Miller]
 
 -   **Familiar:** same names & ideas as [Node's EventEmitter](https://nodejs.org/api/events.html#events_class_eventemitter)
 -   **Functional:** methods don't rely on `this`
@@ -66,8 +66,7 @@ emitter.emit('organization.1.device.1.apple.linux', { a: 'b' })
 function onFoo() {}
 emitter.on('foo', onFoo)   // listen
 emitter.off('foo', onFoo)  // unlisten
-
+```
 ## License
 
-[MIT License](https://opensource.org/licenses/MIT) © [Jason Miller](https://jasonformat.com/)
 [MIT License](https://opensource.org/licenses/MIT) © [Thiago Anselmo](https://jasonformat.com/)
