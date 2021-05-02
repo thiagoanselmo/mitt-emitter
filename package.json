@@ -1,6 +1,6 @@
 {
   "name": "mitt-emitter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple pub/sub",
   "main": "index.js",
   "directories": {
