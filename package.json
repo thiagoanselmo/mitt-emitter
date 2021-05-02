@@ -2,7 +2,7 @@
   "name": "mitt-emitter",
   "version": "1.0.4",
   "description": "Simple pub/sub",
-  "main": "index.js",
+  "main": "dist/mitt-emitter.es.js",
   "directories": {
     "dist": "dist",
     "lib": "lib",
@@ -10,6 +10,7 @@
   },
   "scripts": {
     "main": "dist/mitt-emitter.js",
+    "esmodules": "dist/mitt-emitter.es.js",
     "umd:main": "dist/mitt-emitter.umd.js"
   },
   "repository": {
