@@ -1,2 +1,2 @@
-# mitt-emitter
-Simple pub/sub
+# mitt-emitter is fork of the https://github.com/developit/mitt
+
