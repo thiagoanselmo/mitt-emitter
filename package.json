@@ -1,0 +1,39 @@
+{
+  "name": "mitt-emitter",
+  "version": "1.0.0",
+  "description": "Simple pub/sub",
+  "main": "index.js",
+  "directories": {
+    "dist": "dist",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "main": "dist/mitt-emitter.js",
+    "umd:main": "dist/mitt-emitter.umd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagoanselmo/mitt-emitter.git"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "emitter",
+    "pubsub"
+  ],
+  "author": [
+    "Thiago Anselmo <thiagoo.anselmoo@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagoanselmo/mitt-emitter/issues"
+  },
+  "homepage": "https://github.com/thiagoanselmo/mitt-emitter#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2",
+    "sinon-chai": "^3.5.0"
+  }
+}
